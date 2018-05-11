@@ -1,0 +1,87 @@
+body {
+    background-image: url(pink_dancing_mustache_girls.gif);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: 'Titan One', cursive;
+    font-size: 45px;
+    color: #ff4d4d;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+
+h2 {
+    color: #cde6f2;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+
+#rick {
+    height: 115px;
+    width: 170px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: red green blue yellow;
+    border-width: 4px;
+
+}
+
+#rick:hover {
+    transform: scale(1.5);
+}
+
+#gravity {
+    width: 170px;
+    height: 115px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border-bottom-width: 4px;
+    border: 3px outset purple;
+}
+
+#gravity:hover {
+    transform: scale(1.5);
+}
+
+#bears {
+    width: 170px;
+    height: 115px;
+    border-radius: 50%;
+    border: 5px double black;
+}
+
+#bears:hover {
+    transform: scale(1.5);
+}
+
+.images {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.text {
+    width: 600px;
+    border: 1px solid black;
+    margin: 35px auto;
+    padding: 25px;
+    text-align: justify;
+    background-color: #fce5ff;
+    text-decoration: overline;
+    text-decoration-color: #ebb6ef;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.text:hover {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+
+}
